@@ -1,24 +1,13 @@
-# README
+# Intro to Rails: Blog Project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project allowed me to become familiar with and practice Rails project generation and Ruby gem implementation.
 
-Things you may want to cover:
+I have learned how to get a Rails project up and running as well as implement Form-Based Workflow. I have come to a better understanding of the Model, View, Controller (MVC) architectural pattern, data structures and relationships, routing, migrations, views (w/ forms, partials, and helpers), Representational state transfer (REST) design, as well as adding Ruby gems for additional features.
 
-* Ruby version
+For future Rails projects, I wish to further practice my understanding of the MVC pattern and data structure/relationships. 
 
-* System dependencies
+For this project specifically, I wish to come back to further enhance this basic project to include additional security measures and to enhance user interface/design.
 
-* Configuration
+Project assignment on theodinproject.com
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Tutorial on http://tutorials.jumpstartlab.com/projects/blogger.html#blogger-2

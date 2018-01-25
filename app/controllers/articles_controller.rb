@@ -17,4 +17,9 @@ class ArticlesController < ApplicationController
 		@article.save
 		redirect_to article_path(@article)
 	end
+
+	def destroy
+		@article = Article.destroy(params[:id])
+		redirect_to action: :index
+	end
 end

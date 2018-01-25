@@ -1,4 +1,8 @@
-<h1>All Articles</h1>
+<h1>All Articles
+	<% if logged_in? %>
+		<span style="float: right"><%= link_to "- Create a New Article -", new_article_path, :style => "text-decoration: none; font-weight: normal; font-size: 15pt; color: white" %></span>
+	<% end %>
+</h1>
 
 <ul id="articles">
 	<% @articles.each do |article| %>
@@ -8,4 +12,3 @@
 	<% end %>
 </ul>
 
-<%= link_to "Create a New Article", new_article_path, class: "new_article" %>
